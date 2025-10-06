@@ -15,10 +15,11 @@ const userRoutes = require('./routes/userRoutes');
 // Initialize Express app
 const app = express();
 
-// --- PRODUCTION CORS CONFIGURATION ---
+// --- FINAL PRODUCTION CORS CONFIGURATION ---
 const allowedOrigins = [
   'http://localhost:5173', // For your local development
-  'https://hacathon-neon.vercel.app' // YOUR LIVE VERCEL URL
+  'https://hacathon-neon.vercel.app', // The previous Vercel URL
+  'https://hacathon-dyansus-projects-2fdc8981.vercel.app' // The NEW, CORRECT Vercel URL from your error log
 ];
 
 const corsOptions = {
