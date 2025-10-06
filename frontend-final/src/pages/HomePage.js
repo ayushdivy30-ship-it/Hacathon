@@ -15,7 +15,7 @@ export const HomePage = () => {
             <h1 class="text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl lg:text-8xl">
               Welcome to 
               <span class="bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-600 bg-clip-text text-transparent">
-                Shiksha Jyoti
+                Vidya Sync
               </span>
             </h1>
             <p class="mt-8 text-xl leading-8 text-gray-600 max-w-3xl mx-auto">
